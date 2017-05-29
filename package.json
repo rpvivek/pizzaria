@@ -1,0 +1,23 @@
+{
+  "name": "pizzaria",
+  "version": "1.0.1",
+  "description": "Pizza Application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "Pizza"
+  ],
+  "author": "Vivek Pandharkar",
+  "license": "GPL",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "4.1.9",
+    "morgan": "^1.8.1",
+    "path": "^0.12.7"
+  }
+}
