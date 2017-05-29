@@ -1,0 +1,1 @@
+{ "_id" : { "$oid" : "5912dd909bbbe89c08c3e498" }, "Category_Name_Eng" : "Pizza", "Category_Name_Fin" : "Pizzat", "Language_Id" : "0", "Category_Image" : "pizzaria/images", "Category_Description_Eng" : "Delecious Pizza Have Fun", "Category_Description_Fin" : "Delecious Pizza hauskaa", "Key_Active" : "A", "Created_Date" : "2017-05-10" }

@@ -1,0 +1,31 @@
+<div class="container">
+<div class="profile-title" style="margin-top:30px;">User Login</div>
+<form ng-submit="main.doLogin(loginData);">
+  <div class="form-group">
+    <label for="username">Username:</label>
+    <input type="text" class="form-control" id="text" name="username" ng-model="main.loginData.username">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd" name="password" ng-model="main.loginData.password">
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Login</button>
+</form>
+</div>
+
+
+
+<br/>
+<div class="jumbotron text-center" ng-show="main.loading">
+<span class="glyphicon glyphicon-th-large gly-spin "></span>
+<p>Loading....</p>
+</div>
+</br>
+<div class="row show-hide-message" ng-show="main.successMsg">
+  <div class="alert alert-success">{{main.successMsg}}</div>
+</div>
+</br>
+<div class="row show-hide-message" ng-show="main.errorMsg">
+  <div class="alert alert-danger">{{main.errorMsg}}</div>
+</div>

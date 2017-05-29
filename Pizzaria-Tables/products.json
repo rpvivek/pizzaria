@@ -1,0 +1,1 @@
+{ "_id" : { "$oid" : "5912e6dc9bbbe89c08c3e49a" }, "Category_Id" : "ObjectId('5912dd909bbbe89c08c3e498')", "Product_Name_En" : "Festival Pizza", "Product_Name_fi" : "JUHLA PIZZA (60 CM)", "Product_Price" : "€ 30.00", "Product_Description_Eng" : "Lorem Ipsum lorem ipsumn", "Product_Description_Fi" : "Lorem Ipsum lorem ipsumn", "Created_Date" : "2017-05-10" }

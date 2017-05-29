@@ -1,17 +1,17 @@
 {
   "name": "pizzaria",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Pizza Application",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "keywords": [
     "Pizza"
   ],
-  "author": "Vivek Pandharkar",
-  "license": "GPL",
+  "author": "Amin Akhtar",
+  "license": "ISC",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.17.1",
